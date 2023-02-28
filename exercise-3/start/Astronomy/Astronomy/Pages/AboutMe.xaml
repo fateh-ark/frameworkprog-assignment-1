@@ -1,0 +1,12 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Astronomy.Pages.AboutMe"
+             Title="About This Student"
+             BackgroundColor="Black">
+
+    <StackLayout Padding="10" Spacing="5">
+        <Image Source="profpic.jpg" HeightRequest="500"/>
+        <Label Text="Modified By Muhammad Fatih Akbar" HorizontalTextAlignment="Center" FontSize="Large" FontAttributes="Bold" TextColor="White"/>
+        <Label Text="NRP 5025201117" HorizontalTextAlignment="Center" TextColor="White" FontSize="Medium"/>
+    </StackLayout>
+</ContentPage>
